@@ -1,0 +1,43 @@
+{
+  "VNS_mrWD_name": {
+    "message": "VNS - Mr. Web Developer",
+    "description": "The title of the application, displayed in the web store."
+  },
+  
+  "VNS_mrWD_desc": {
+    "message": "Mr. Web Developer is a toolkit for the web developer.\r\nThe extension tool is formed on the basis of daily needs in the development of web applications.", 
+    "description":"The description of the application, displayed in the web store."
+  }
+
+  ,"VNS_mrWD_popup": {
+    "message": "Mr. Web Developer",
+    "description": ""
+  }
+
+  ,"VNS_mrWD": {
+    "message": "Mr. Web Developer",
+    "description": ""
+  }
+
+  ,"VNS_mrWD_Panels": {
+    "message": "VNS DevTools",
+    "description": ""
+  }
+  ,"VNS_mrWD_Source": {
+    "message": "View Resources",
+    "description": ""
+  }
+  ,"VNS_mrWD_Html": {
+    "message": "Code review",
+    "description": ""
+  }
+  ,"VNS_mrWD_Call": {
+    "message": "Call Stack",
+    "description": ""
+  }
+  ,"VNS_mrWD_Cmd": {
+    "message": "Start terminal",
+    "description": ""
+  }
+
+}

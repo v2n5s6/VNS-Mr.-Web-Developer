@@ -1,0 +1,42 @@
+{
+    "name": "__MSG_VNS_mrWD_name__",
+    "version": "1.0.0",
+
+    "default_locale": "ru",
+    "description": "__MSG_VNS_mrWD_desc__",
+
+    "devtools_page": "./src/dev/index.html",
+    "permissions": [
+        "tabs",
+        "storage",
+        "contextMenus",
+        "downloads", 
+        "downloads.open", 
+        "downloads.shelf",
+        "unlimitedStorage",
+        "<all_urls>"
+    ],
+    "minimum_chrome_version" : "61.0.0.0",
+    "omnibox": { "keyword" : "vns:" },
+    "background": {
+      "page": "./src/background/index.html",
+      "persistent": false
+    },
+    
+    "icons": {
+        "128": "./src/img/vns-i128.png"
+    },
+
+    "browser_action": {
+        "default_popup": "./src/htm/popup.html",
+        "default_title": "__MSG_VNS_mrWD_popup__",
+        "default_icon": {
+            "32": "./src/img/vns-i32.png",
+            "48": "./src/img/vns-i48.png",
+            "128": "./src/img/vns-i128.png"
+        }
+    },
+
+
+    "manifest_version": 2
+}
