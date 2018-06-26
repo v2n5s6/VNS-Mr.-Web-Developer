@@ -21,7 +21,6 @@
 //       updateElementProperties);
 // });
 const sourc = ev => {
-  let res = evn => console.log(evn);
-  ;
+  document.body.innerText = ev;
 };
-document.body.onclick = () => (chrome.devtools.inspectedWindow.getResources(evn => console.log(evn)));
+document.body.onclick = sourc;
