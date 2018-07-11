@@ -20,6 +20,8 @@
 //   chrome.devtools.panels.elements.onSelectionChanged.addListener(
 //       updateElementProperties);
 // });
+
+import NavTabs from "./NavTabs.js";
 const sourc = ev => {
   document.body.innerText = ev;
 };
